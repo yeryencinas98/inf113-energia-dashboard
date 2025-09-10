@@ -1,0 +1,14 @@
+{
+  "name": "inf113-energia-dashboard",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:api": "jest --runInBand -t 'Test 1'",
+    "test:stats": "jest --runInBand -t 'Test 2'",
+    "test:render": "jest --runInBand -t 'Test 3'"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

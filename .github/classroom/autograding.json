@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test 1: fetchEnergyData",
+      "setup": "npm install",
+      "run": "npm run test:api",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 30
+    },
+    {
+      "name": "Test 2: computeStats",
+      "setup": "npm install",
+      "run": "npm run test:stats",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 30
+    },
+    {
+      "name": "Test 3: renderDashboard + seguridad + docs",
+      "setup": "npm install",
+      "run": "npm run test:render",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 40
+    }
+  ]
+}
